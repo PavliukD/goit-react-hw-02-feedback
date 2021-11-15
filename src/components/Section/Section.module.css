@@ -1,0 +1,10 @@
+.section{
+    text-align: center;
+    width: 360px;
+    margin: auto;
+    outline: 1px solid tomato;
+}
+
+.title{
+    margin: auto;
+}
