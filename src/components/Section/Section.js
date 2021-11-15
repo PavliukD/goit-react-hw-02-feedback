@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import s from './Section.module.css'
 
 export default function Section({sectionName, children}){
@@ -7,4 +8,9 @@ return(
         {children}
     </section>
 )
+}
+
+Section.propTypes = {
+    sectionName: PropTypes.string,
+    
 }

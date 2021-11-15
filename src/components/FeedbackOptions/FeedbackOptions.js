@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import Button from '../Button/Button'
 import s from './FeedbackOptions.module.css'
 
@@ -17,4 +18,8 @@ export default function FeedbackOptions({onClick}){
             </ul>         
         </>
     )
+}
+
+FeedbackOptions.propTypes = {
+    onClick: PropTypes.func
 }
